@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS USING JAVAScript to run React</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--created a div with id root to map with the react app....-->
+    <div id="root"></div>
+
+    <!-- //This is a CDN link to run react app in browser-->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!--//This is a Script tag to link the react app with the index.html-->
+    <script src="./App.js"></script>
+  </body>
+</html>
