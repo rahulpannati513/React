@@ -3,7 +3,7 @@
 const header = React.createElement(
   "h1",
   { id: "heading" },
-  "Hello from react application usign javascript "
+  "Hello from react application using javascript "
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
