@@ -1,0 +1,6 @@
+#parent {
+  color: rgb(135, 5, 5);
+}
+#child {
+  color: rgb(5, 7, 135);
+}
