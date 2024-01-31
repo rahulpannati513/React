@@ -2,8 +2,9 @@
   "name": "react_part5",
   "version": "1.0.0",
   "description": "This is Namste React course following By Rahul Pannati",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -22,5 +23,9 @@
   "homepage": "https://github.com/rahulpannati513/React#readme",
   "devDependencies": {
     "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

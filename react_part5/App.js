@@ -1,8 +1,11 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 //React.createElement -> it is a object becomes html that browser can understand
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "I'm an h1 element"),
-    React.createElement("h2", {}, "I'm an h2 element"),
+    React.createElement("h1", {}, "This is Namaste React 🚀"),
+    React.createElement("h2", {}, "This course is great 👍"),
   ]), //If you want to add more sibling elements, you can add them in an array
   React.createElement("div", { id: "child" }, [
     React.createElement("h1", {}, "I'm an h1 element"),
